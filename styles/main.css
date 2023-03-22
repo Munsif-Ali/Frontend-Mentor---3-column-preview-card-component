@@ -29,13 +29,12 @@ body {
     max-width: 700px;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 5px;
-
     overflow: hidden;
 }
 
 .card {
     color: var(--Very-light-gray);
-    padding: 2.5rem;
+    padding: clamp(1rem, 1.5rem, 2.5rem);
 }
 
 .card-title {
@@ -90,6 +89,6 @@ body {
 
     .wrapper {
         grid-template-columns: 1fr;
-
     }
+
 }
