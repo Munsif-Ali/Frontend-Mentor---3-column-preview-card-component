@@ -72,7 +72,7 @@ body {
     text-align: center;
     display: inline-block;
     border: 2px solid var(--Very-light-gray);
-
+    transition: background-color, color 0.3s ease-in-out;
 }
 
 .learn-more-btn:hover {
